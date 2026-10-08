@@ -1,0 +1,4 @@
+interface:
+  display_name: "高质量期刊 Letter 选题追踪"
+  short_description: "追踪25本医学期刊近5天新文献，核查证据并最多推荐3篇评论信候选"
+  default_prompt: "使用 $comment-letter-scout 检索清单全部期刊近5天新发表的相关研究，核实日期和资料后，最多推荐3篇值得考虑写comment letter的文章。"

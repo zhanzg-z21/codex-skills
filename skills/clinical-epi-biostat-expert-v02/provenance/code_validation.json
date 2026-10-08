@@ -1,0 +1,15 @@
+{
+  "scope": "examples/boundary_checks.R only",
+  "runtime": "R 4.3.0 (2023-04-21 ucrt)",
+  "result": "passed",
+  "checks": [
+    "NI boundary directions and equality",
+    "sampling calibration compared with Bayes formula",
+    "matched data refused by limited example"
+  ],
+  "warnings": [
+    "R startup could not set four C.UTF-8 locale categories; numerical checks completed"
+  ],
+  "not_tested": "No mice, GEE, mixed-model, SACE, NCC, iCARE or other package analysis runtime certification",
+  "date": "2026-09-17"
+}

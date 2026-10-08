@@ -1,0 +1,184 @@
+[
+  {
+    "abbreviation": "CIF",
+    "english": "cumulative incidence function",
+    "chinese": "累积发生函数",
+    "operational_meaning": "特定原因在给定时间前发生的概率，考虑竞争事件",
+    "do_not_conflate": "不能用原因别累计hazard替代"
+  },
+  {
+    "abbreviation": "risk",
+    "english": "cumulative risk",
+    "chinese": "累积风险",
+    "operational_meaning": "指定人群、事件和时间的发生概率",
+    "do_not_conflate": "不同于hazard"
+  },
+  {
+    "abbreviation": "hazard",
+    "english": "hazard",
+    "chinese": "风险率",
+    "operational_meaning": "尚处风险集者的瞬时发生率",
+    "do_not_conflate": "不是固定时点概率"
+  },
+  {
+    "abbreviation": "CSH",
+    "english": "cause-specific hazard",
+    "chinese": "原因别风险率",
+    "operational_meaning": "仍未发生任何事件者的特定原因风险率",
+    "do_not_conflate": "CS HR不是CIF比值"
+  },
+  {
+    "abbreviation": "SDH",
+    "english": "subdistribution hazard",
+    "chinese": "亚分布风险率",
+    "operational_meaning": "与CIF联系的特殊风险集定义",
+    "do_not_conflate": "sHR不等于CS HR或风险比"
+  },
+  {
+    "abbreviation": "prediction",
+    "english": "prediction",
+    "chinese": "预测",
+    "operational_meaning": "针对明确目标时点和人群预测未观测结局",
+    "do_not_conflate": "准确预测不证明因果"
+  },
+  {
+    "abbreviation": "prognosis",
+    "english": "prognosis",
+    "chinese": "预后",
+    "operational_meaning": "指定起点后的结局过程",
+    "do_not_conflate": "需明确时窗"
+  },
+  {
+    "abbreviation": "association",
+    "english": "association",
+    "chinese": "关联",
+    "operational_meaning": "指定分析条件下的统计关系",
+    "do_not_conflate": "调整不自动赋予因果意义"
+  },
+  {
+    "abbreviation": "causal effect",
+    "english": "causal effect",
+    "chinese": "因果效应",
+    "operational_meaning": "明确干预策略的反事实结局对比",
+    "do_not_conflate": "依赖识别假设"
+  },
+  {
+    "abbreviation": "EMM",
+    "english": "effect measure modification",
+    "chinese": "效应测度修饰",
+    "operational_meaning": "某一效应尺度上组间差异",
+    "do_not_conflate": "必须指定尺度"
+  },
+  {
+    "abbreviation": "interaction",
+    "english": "interaction",
+    "chinese": "交互作用",
+    "operational_meaning": "指定模型或效应尺度上的联合对比",
+    "do_not_conflate": "不能仅比较亚组P值"
+  },
+  {
+    "abbreviation": "mediation",
+    "english": "mediation",
+    "chinese": "中介",
+    "operational_meaning": "经由中介过程的效应分解",
+    "do_not_conflate": "需时序和额外识别假设"
+  },
+  {
+    "abbreviation": "calibration",
+    "english": "calibration",
+    "chinese": "校准",
+    "operational_meaning": "预测概率与观察结局一致性",
+    "do_not_conflate": "高AUC不保证校准"
+  },
+  {
+    "abbreviation": "discrimination",
+    "english": "discrimination",
+    "chinese": "鉴别能力",
+    "operational_meaning": "预测排序区分不同结局",
+    "do_not_conflate": "不等于临床实用性"
+  },
+  {
+    "abbreviation": "internal validation",
+    "english": "internal validation",
+    "chinese": "内部验证",
+    "operational_meaning": "在开发数据来源内评价完整建模流程",
+    "do_not_conflate": "须包括筛选及调参"
+  },
+  {
+    "abbreviation": "external validation",
+    "english": "external validation",
+    "chinese": "外部验证",
+    "operational_meaning": "固定模型在新数据来源检验",
+    "do_not_conflate": "重新建模需与验证分开"
+  },
+  {
+    "abbreviation": "MAR",
+    "english": "missing at random",
+    "chinese": "随机缺失",
+    "operational_meaning": "给定模型观测信息后缺失不再依赖未观测值",
+    "do_not_conflate": "不能由观察数据证明"
+  },
+  {
+    "abbreviation": "MCAR",
+    "english": "missing completely at random",
+    "chinese": "完全随机缺失",
+    "operational_meaning": "缺失与相关观测及未观测数据无关",
+    "do_not_conflate": "Little未拒绝不是证明"
+  },
+  {
+    "abbreviation": "MNAR",
+    "english": "missing not at random",
+    "chinese": "非随机缺失",
+    "operational_meaning": "给定观测信息后仍依赖未观测值",
+    "do_not_conflate": "需要不可检验假设及敏感性"
+  },
+  {
+    "abbreviation": "MID",
+    "english": "minimal important difference",
+    "chinese": "最小重要差异",
+    "operational_meaning": "临床或患者重要性的情境化阈值",
+    "do_not_conflate": "不同于测量误差MDC"
+  },
+  {
+    "abbreviation": "FDR",
+    "english": "false discovery rate",
+    "chinese": "错误发现率",
+    "operational_meaning": "发现中错误比例的期望类控制目标",
+    "do_not_conflate": "不是每一发现为假的概率"
+  },
+  {
+    "abbreviation": "FWER",
+    "english": "family-wise error rate",
+    "chinese": "族错误率",
+    "operational_meaning": "检验族中至少一次错误拒绝的概率",
+    "do_not_conflate": "检验族需定义"
+  },
+  {
+    "abbreviation": "NI",
+    "english": "noninferiority",
+    "chinese": "非劣效",
+    "operational_meaning": "排除预设不可接受损失",
+    "do_not_conflate": "不是普通P不显著"
+  },
+  {
+    "abbreviation": "SACE",
+    "english": "survivor average causal effect",
+    "chinese": "始终存活主层平均因果效应",
+    "operational_meaning": "两种治疗下均存活者的潜在结局差",
+    "do_not_conflate": "不是实际幸存者均值差"
+  },
+  {
+    "abbreviation": "CRT",
+    "english": "cluster randomized trial",
+    "chinese": "整群随机试验",
+    "operational_meaning": "治疗按簇随机分配",
+    "do_not_conflate": "不是所有多中心研究"
+  },
+  {
+    "abbreviation": "NCC",
+    "english": "nested case-control",
+    "chinese": "巢式病例对照",
+    "operational_meaning": "在风险集中抽取对照的抽样设计需具体核对",
+    "do_not_conflate": "不是普通未匹配病例对照"
+  }
+]

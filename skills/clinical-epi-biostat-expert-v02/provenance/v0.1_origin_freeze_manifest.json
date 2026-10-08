@@ -1,0 +1,158 @@
+{
+  "version": "v0.1",
+  "frozen_at_utc": "2026-09-17T12:08:06.768788+00:00",
+  "holdout_created": false,
+  "scope": "Executable instruction, all active knowledge, modes, scripts, examples, evidence and core provenance. Evaluation outputs and human packet are additive.",
+  "files": [
+    {
+      "path": "examples/boundary_checks.R",
+      "sha256": "12f10ab9120000b55c1d532ed3ada0b56424ef60482f8a6d62b00ecdc224580a",
+      "bytes": 1706
+    },
+    {
+      "path": "examples/usage_examples.md",
+      "sha256": "1664c3a2007b010f1db573dcd01ea51e39b34b2b9339029c542ef4d977b229c7",
+      "bytes": 1590
+    },
+    {
+      "path": "knowledge/conditional_rules.jsonl",
+      "sha256": "f46fa2827ec0751c86aac3b551b24ca8d2b9da1d7d3d63d8990920a061b0bdd0",
+      "bytes": 144759
+    },
+    {
+      "path": "knowledge/decision_rules.jsonl",
+      "sha256": "d84cf9f08a9824db73acfeffadf9e862bcc5eff4079f65f81c51e41354db5885",
+      "bytes": 282014
+    },
+    {
+      "path": "knowledge/evidence_catalog.jsonl",
+      "sha256": "1433f0e7857f96dec212f42e278cad648fba1d52c911b4c6c48e54c24433f317",
+      "bytes": 267228
+    },
+    {
+      "path": "knowledge/hard_stops.jsonl",
+      "sha256": "1f3bd03d34fe03046e7830b4070b11693a6bc041c59329b0bc0d1d3892c636ec",
+      "bytes": 29610
+    },
+    {
+      "path": "knowledge/implementation_rules.jsonl",
+      "sha256": "5f7452cf60ceaf4f9c17453e47e80f16226e14b0b076f45ce51d353cde2e83b4",
+      "bytes": 58415
+    },
+    {
+      "path": "knowledge/index.json",
+      "sha256": "5a4a393d7a777e980f3f5271c9025c7a681b96164cf333ea3d30dda73763afd8",
+      "bytes": 1232
+    },
+    {
+      "path": "knowledge/problem_method_map.csv",
+      "sha256": "44c2b40586dafc906494bf831494570400820e128f49d2f0fe86f1e0d3b755a9",
+      "bytes": 90126
+    },
+    {
+      "path": "knowledge/rejected_patterns.jsonl",
+      "sha256": "6115582d0dd98ab10e0a5421e1cda60cb4f3951cfb72b1274844efdf20ba10f9",
+      "bytes": 49356
+    },
+    {
+      "path": "knowledge/reporting_rules.jsonl",
+      "sha256": "47a9e6c5ae713d70b1f5ea01962d499c30f4296ca6546bb44b09435c4366c89b",
+      "bytes": 89633
+    },
+    {
+      "path": "knowledge/reviewer_checks.jsonl",
+      "sha256": "d7c4b18b6946def39c1285a6134d108482fc4791180e7b895ccbbd1d5a781cf4",
+      "bytes": 119391
+    },
+    {
+      "path": "knowledge/terminology.json",
+      "sha256": "3574f6b78030fa1f9b63289e5950c5e9541c22604f217e1a49745d7739ce8eeb",
+      "bytes": 6274
+    },
+    {
+      "path": "knowledge/validated_rules.jsonl",
+      "sha256": "47e4e8cf7a77f58986870602895fe931884ca68151b252f5e1b5101a569e3130",
+      "bytes": 220165
+    },
+    {
+      "path": "modes/analysis.md",
+      "sha256": "b8f555c488f92bf53d58ccd185e09556d90b1ffe9e3adfa44227f2a560ecb851",
+      "bytes": 1196
+    },
+    {
+      "path": "modes/design.md",
+      "sha256": "7140517722c987e543d13314e50e1ce084c3fcfebf422c711c01002d3af60cc6",
+      "bytes": 1161
+    },
+    {
+      "path": "modes/implementation.md",
+      "sha256": "c042c2e3910283d7214f8203fbb9b8a428bbbb9681b81c4ccd9b2f8f6e14dbfb",
+      "bytes": 1215
+    },
+    {
+      "path": "modes/literature_to_method.md",
+      "sha256": "e87ac263b1f019c5809c3969c607db31092d5700b852bc7ef44ba837daa8fb91",
+      "bytes": 1187
+    },
+    {
+      "path": "modes/method_novelty.md",
+      "sha256": "602482d6f3ad6635272f40adac115ea4d1d51d851a4e96a3e598abef6609409f",
+      "bytes": 990
+    },
+    {
+      "path": "modes/reporting.md",
+      "sha256": "5e55dd72b7fcad5ad916b3fd8ece49de892551f56130eebc3b1ba288a1435374",
+      "bytes": 1179
+    },
+    {
+      "path": "modes/reviewer.md",
+      "sha256": "3eb2fb73d64d683dfe3064a7fdd766a99fcdf6dffc6e49300b3586001e80e68b",
+      "bytes": 1381
+    },
+    {
+      "path": "provenance/code_validation.json",
+      "sha256": "03210b57146ccec04ce77c53dfba2c168dfed3a6d9a008f884a34749a1b62d52",
+      "bytes": 537
+    },
+    {
+      "path": "provenance/excluded_registry.jsonl",
+      "sha256": "6eb3f0db9c723311db609879a9731c502ecced72aee5365751c39260138992ee",
+      "bytes": 100634
+    },
+    {
+      "path": "provenance/rule_provenance.jsonl",
+      "sha256": "475c60990dc9aa3c9349f2e38fa12fe889c806d5101e16fa8b956dca9a6848bf",
+      "bytes": 283216
+    },
+    {
+      "path": "provenance/withheld_derived_rules.jsonl",
+      "sha256": "2f0df2284f35abd8a4378495b515a82faff73dcbe672b3f9aa4eb988dff935ea",
+      "bytes": 1205
+    },
+    {
+      "path": "README.md",
+      "sha256": "49926d6e77c86fcf9a6e972f2cdd47febb2e809094e01607e60846f5fdf6b34b",
+      "bytes": 5432
+    },
+    {
+      "path": "scripts/lookup.py",
+      "sha256": "8b3be8f56b4c89c65d7477da096281c5e1b55c55edd77dcdde8aa3f418cf2caf",
+      "bytes": 7607
+    },
+    {
+      "path": "scripts/validate_bundle.py",
+      "sha256": "ebd8db1582dd82c3fbd644007ac0f1c42f3157748486af8dcdbcdca5444b6eb0",
+      "bytes": 9595
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "a81f19e529577f1650649248be8dd8a3750b7a4e3a347d756d0d1900311dfdab",
+      "bytes": 6981
+    },
+    {
+      "path": "tests/evaluation_protocol.md",
+      "sha256": "b2f436bcd720f1feee67db621fe11cabfa90bf038b0450f2c4162e0f624d29da",
+      "bytes": 3031
+    }
+  ]
+}

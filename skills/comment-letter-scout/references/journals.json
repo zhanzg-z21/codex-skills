@@ -1,0 +1,839 @@
+{
+  "version": 1,
+  "verified_on": "2026-10-04",
+  "source_workbook": "D:/Users/0/Desktop/daliy/1.课题管理/cym/letter/妇产麻醉_高质量Letter追踪子清单_10分主体版.xlsx",
+  "journals": [
+    {
+      "row": null,
+      "name": "JAMA",
+      "pubmed": "JAMA",
+      "domain": "综合医学",
+      "jif": 65.4,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "重大RCT与Meta分析、围术期管理、出血输血、血栓、母体安全及药物风险",
+      "type": "Letter to the Editor",
+      "rules": "本刊目标文章发表后4周内；400词、5篇参考、3名作者，不含未发表数据。禁止使用AI、LLM或chatbot起草评论信。",
+      "metric": "https://jamanetwork.com/journals/jama/fullarticle/2854582",
+      "guide": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+      "evidence": "https://jamanetwork.com/journals/jama/pages/submitaletter",
+      "note": "新增，原145刊清单之外。2025 JIF由本刊2026年9月编辑文章明确。使用正式投稿系统；网页Comments不等于正式Letter。",
+      "id": "jama",
+      "pubmed_query": "\"0098-7484\"[Journal]",
+      "issns": [
+        "0098-7484"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0098-7484",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://jamanetwork.com/journals/jama/newonline"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 New Online 页面已读取，包含原文及正式 Comment and Response；逐篇识别稿型。",
+      "ai_policy": {
+        "status": "no_ai_drafting",
+        "note": "本刊明确禁止使用 AI、LLM 或 chatbot 起草 Letter to the Editor。可追踪和核对文献信息，评论信正文须由作者自行撰写。",
+        "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 3,
+      "name": "The New England Journal of Medicine",
+      "domain": "综合医学",
+      "jif": 84.5,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "与产科麻醉直接相关的大型试验：出血、输血、妊娠高血压、重症治疗及镇痛",
+      "type": "Letter to the Editor",
+      "rules": "针对近期本刊文章：发表后3周内，175词，最多3名作者。需优先确认一个可在短篇幅论证的关键问题。",
+      "metric": "https://www.nejm.org/author-center/home",
+      "guide": "https://www.nejm.org/author-center/letters-to-the-editor",
+      "evidence": "https://www.nejm.org/author-center/article-types",
+      "note": "按选题机会追踪。较高JIF不代表评论信更容易录用。",
+      "id": "nejm",
+      "pubmed_query": "\"0028-4793\"[Journal]",
+      "issns": [
+        "0028-4793"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0028-4793",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.nejm.org/toc/nejm/current"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Current Issue 内容已由搜索索引确认，但期次目录可能遗漏尚未编入期次的在线发表文章。本次未确认当前独立 early release 列表入口；必须同时使用 publisher_search_query 及 PubMed/Crossref 补查，并逐篇核对首次在线发表日期。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.nejm.org/author-center/letters-to-the-editor"
+      },
+      "route": "standard",
+      "publisher_search_query": "site:nejm.org/doi/ \"Published online\" \"New England Journal of Medicine\""
+    },
+    {
+      "row": 2,
+      "name": "The Lancet",
+      "domain": "综合医学",
+      "jif": 109,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "孕产妇健康、产后出血、全球母体安全、围术期及重症重大临床试验",
+      "type": "Correspondence",
+      "rules": "有正式Correspondence栏目。当前指南读取受限，投稿窗口与字数需在选定原文时复核。",
+      "metric": "https://www.linkedin.com/posts/the-lancet_rcts-clinicaltrials-clinicalresearch-activity-7477986859466428416-hAY3",
+      "guide": "https://www.thelancet.com/pb/assets/raw/Lancet/authors/tl-info-for-authors.pdf",
+      "evidence": "https://www.lancet.com/pb/assets/raw/Lancet/authors/lancet-information-for-authors.pdf",
+      "note": "JIF来自Lancet Group官方公告。栏目由官方旧版指南确认，未把旧版250词及2周规则当作当前已核实要求。",
+      "id": "lancet",
+      "pubmed_query": "\"0140-6736\"[Journal]",
+      "issns": [
+        "0140-6736"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0140-6736",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.thelancet.com/journals/lancet/onlinefirst"
+      ],
+      "publisher_latest_status": "blocked",
+      "publisher_latest_notes": "Online First 路径有 WHO 官方编辑手册中的直接链接作为证据；Lancet 官方订阅页也确认提前在线发表栏目。当前页面返回 403，未核实当前列表内容。不得将作者指南作为最新研究入口。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.thelancet.com/pb/assets/raw/Lancet/authors/tl-info-for-authors.pdf"
+      },
+      "route": "standard",
+      "publisher_latest_evidence": [
+        "https://applications.emro.who.int/dsaf/dsa1037.pdf?ua=1",
+        "https://info.thelancet.com/update-alerts-new"
+      ],
+      "publisher_search_query": "site:thelancet.com/journals/lancet/ (onlinefirst OR fulltext) \"Published\""
+    },
+    {
+      "row": null,
+      "name": "JAMA Internal Medicine",
+      "domain": "综合内科",
+      "jif": 26.3,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "围术期内科问题、药物安全、血栓预防、过度医疗、代谢疾病及临床证据解释",
+      "type": "Letter to the Editor",
+      "rules": "本刊目标文章在线发表后4周内；400词、5篇参考、3名作者，不含未发表数据。禁止使用AI、LLM或chatbot起草评论信。",
+      "metric": "https://www.wolterskluwer.com/en/solutions/ovid/jama-internal-medicine-505",
+      "guide": "https://jamanetwork.com/journals/jamainternalmedicine/pages/instructions-for-authors",
+      "evidence": "https://jamanetwork.com/journals/jamainternalmedicine/pages/submitaletter",
+      "note": "新增，原145刊清单之外。期刊2026年7月更新页面为26.3，2025指标年由Ovid确认；不沿用较旧年度回顾中的23.3。",
+      "id": "jama-internal-medicine",
+      "pubmed_query": "\"2168-6106\"[Journal]",
+      "issns": [
+        "2168-6106"
+      ],
+      "issn_source": "https://api.crossref.org/journals/2168-6106",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://jamanetwork.com/journals/jamainternalmedicine/newonline"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 New Online 页面已读取。",
+      "ai_policy": {
+        "status": "no_ai_drafting",
+        "note": "本刊明确禁止使用 AI、LLM 或 chatbot 起草 Letter to the Editor。可追踪和核对文献信息，评论信正文须由作者自行撰写。",
+        "source": "https://jamanetwork.com/journals/jamainternalmedicine/pages/instructions-for-authors"
+      },
+      "route": "standard"
+    },
+    {
+      "row": null,
+      "name": "JAMA Surgery",
+      "domain": "外科与围术期",
+      "jif": 15.6,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "围术期风险、输血、血栓预防、镇痛与术后恢复、手术质量及患者重要结局",
+      "type": "Letter to the Editor",
+      "rules": "本刊目标文章在线发表后4周内；400词、5篇参考、3名作者，不含未发表数据。禁止使用AI、LLM或chatbot起草评论信。",
+      "metric": "https://www.wolterskluwer.com/en/solutions/ovid/jama-surgery-602",
+      "guide": "https://jamanetwork.com/journals/jamasurgery/pages/instructions-for-authors",
+      "note": "新增，原145刊清单之外。当前JIF数值由JAMA官方作者页确认，2025指标年由Ovid确认。优先临床管理问题。",
+      "id": "jama-surgery",
+      "pubmed_query": "\"2168-6254\"[Journal]",
+      "issns": [
+        "2168-6254"
+      ],
+      "issn_source": "https://api.crossref.org/journals/2168-6254",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://jamanetwork.com/journals/jamasurgery/newonline"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 New Online 页面已读取。",
+      "ai_policy": {
+        "status": "no_ai_drafting",
+        "note": "本刊明确禁止使用 AI、LLM 或 chatbot 起草 Letter to the Editor。可追踪和核对文献信息，评论信正文须由作者自行撰写。",
+        "source": "https://jamanetwork.com/journals/jamasurgery/pages/instructions-for-authors"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 8,
+      "name": "British Journal of Anaesthesia",
+      "domain": "麻醉",
+      "jif": 10.3,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "产科麻醉、椎管内镇痛、血流动力学、围术期安全及临床试验设计",
+      "type": "Correspondence",
+      "rules": "有正式评论与回复栏目。当前字数、作者数及投稿时限未完成核实。",
+      "metric": "https://www.linkedin.com/posts/british-journal-of-anaesthesia-046367234_we-are-pleased-to-share-that-thebja-has-activity-7473022562231545856-PxYM",
+      "guide": "https://www.sciencedirect.com/journal/british-journal-of-anaesthesia/publish/guide-for-authors",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9666373/",
+      "note": "JIF来自期刊官方账号。栏目证据为本刊发表的分析；当前指南页面读取受限。",
+      "id": "british-journal-of-anaesthesia",
+      "pubmed_query": "\"0007-0912\"[Journal]",
+      "issns": [
+        "0007-0912"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0007-0912",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.bjanaesthesia.org/inpress"
+      ],
+      "publisher_latest_status": "blocked",
+      "publisher_latest_notes": "本刊已发表编辑文章明确给出 Advance Access 地址 bjanaesthesia.org/inpress。当前页面访问受限，未读取最新列表；须以官网原文首次在线日期复核。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.sciencedirect.com/journal/british-journal-of-anaesthesia/publish/guide-for-authors"
+      },
+      "route": "standard",
+      "publisher_latest_evidence": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7186195/"
+      ],
+      "publisher_search_query": "site:bjanaesthesia.org (inpress OR \"Available online\" OR \"Articles in Press\")"
+    },
+    {
+      "row": 11,
+      "name": "Intensive Care Medicine",
+      "domain": "重症",
+      "jif": 22,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "产科重症、出血性休克、脓毒症、液体治疗、血管活性药物及器官支持",
+      "type": "Correspondence",
+      "rules": "讨论本刊已发表文章。最多500词、5篇参考、1图或表、5名作者；指南未列固定天数。",
+      "metric": "https://link.springer.com/journal/134",
+      "guide": "https://link.springer.com/journal/134/submission-guidelines",
+      "note": "重点判断一般成人重症证据对孕产妇的适用性，避免仅指出未纳入孕妇。",
+      "id": "intensive-care-medicine",
+      "pubmed_query": "\"0342-4642\"[Journal]",
+      "issns": [
+        "0342-4642"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0342-4642",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://link.springer.com/journal/134/articles"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 Articles 列表已读取。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://link.springer.com/journal/134/submission-guidelines"
+      },
+      "route": "standard"
+    },
+    {
+      "row": null,
+      "name": "Critical Care",
+      "pubmed": "Critical Care",
+      "domain": "重症",
+      "jif": 11.4,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "产科重症、出血性休克、脓毒症、液体与血管活性药、机械通气及器官支持",
+      "type": "Matters Arising",
+      "rules": "针对本刊原创研究；正文建议不超过1200词、最多15篇参考，须引用目标文章。要求及时，未列固定天数；使用LLM须在适当部分披露。",
+      "metric": "https://link.springer.com/journal/13054",
+      "guide": "https://link.springer.com/journal/13054/submission-guidelines/matters-arising",
+      "note": "新增，原145刊清单之外。现行评论稿型为Matters Arising，不能套用其他期刊Correspondence规则。",
+      "id": "critical-care",
+      "pubmed_query": "\"1364-8535\"[Journal]",
+      "issns": [
+        "1364-8535"
+      ],
+      "issn_source": "https://api.crossref.org/journals/1364-8535",
+      "issn_notes": "Crossref journal 接口及 /journals/1364-8535/works 返回的当前 10.1186/s13054 文章均已核实，确认对应 Springer Nature 的 Critical Care。仅使用此已验证 ISSN。",
+      "publisher_latest_urls": [
+        "https://link.springer.com/journal/13054/articles"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 Articles 列表已读取。",
+      "ai_policy": {
+        "status": "disclose",
+        "note": "当前指南要求披露 AI 或 LLM 使用情况，作者须审核内容并承担责任。按目标稿型与当前指南填写披露，不将披露政策解释为可代替作者判断。",
+        "source": "https://link.springer.com/journal/13054/submission-guidelines/matters-arising"
+      },
+      "route": "matters_arising"
+    },
+    {
+      "row": 70,
+      "name": "American Journal of Respiratory and Critical Care Medicine",
+      "domain": "呼吸与重症",
+      "jif": 21.7,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "机械通气、ARDS、气道与氧合、肺循环及危重患者治疗结局",
+      "type": "Correspondence",
+      "rules": "最多600词、6篇参考、5名作者，无摘要和关键词。原文编入正式期次超过1个月后可能不再考虑。",
+      "metric": "https://academic.oup.com/ajrccm",
+      "guide": "https://academic.oup.com/ajrccm/pages/author-guidelines",
+      "note": "现行作者指南为Oxford Academic版本。优先有麻醉或围产期具体临床交集的研究。",
+      "id": "ajrccm",
+      "pubmed_query": "\"1073-449X\"[Journal]",
+      "issns": [
+        "1073-449X"
+      ],
+      "issn_source": "https://api.crossref.org/journals/1073-449X",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://academic.oup.com/ajrccm/advance-articles"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Advance articles 内容由搜索索引确认；直接读取曾超时。注意区别 ORIGINAL RESEARCH、Research letter、Correspondence 和 Reply。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://academic.oup.com/ajrccm/pages/author-guidelines"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 84,
+      "name": "CHEST",
+      "domain": "呼吸与重症",
+      "jif": 10.2,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "肺栓塞、肺动脉高压、呼吸支持、睡眠呼吸障碍及围术期呼吸结局",
+      "type": "Correspondence",
+      "rules": "正式Correspondence栏目已核实。当前字数与投稿时限未完成核实。",
+      "metric": "https://www.chestnet.org/newsroom/press-releases/2026/08/chest-receives-impact-factor",
+      "guide": "https://journal.chestnet.org/authinfo_articletype",
+      "evidence": "https://journal.chestnet.org/Correspondence",
+      "note": "采用学会2026-08-19公告的2025 JIF 10.2。期刊首页仍显示9.8，与当前10分门槛分处两侧，本表按较新的明确年度公告纳入。",
+      "id": "chest",
+      "pubmed_query": "\"0012-3692\"[Journal]",
+      "issns": [
+        "0012-3692"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0012-3692",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://journal.chestnet.org/inpress"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Articles in Press 内容由搜索索引确认；直接读取受限。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://journal.chestnet.org/authinfo_articletype"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 77,
+      "name": "Diabetes Care",
+      "domain": "糖尿病与妊娠",
+      "jif": 22.6,
+      "year": 2025,
+      "tier": "主体重点",
+      "topic": "妊娠糖尿病、连续血糖监测、围产期低血糖、母婴结局及血糖目标",
+      "type": "Comment Letters",
+      "rules": "原文卷期发表后3个月内。最多500词、5篇参考，无图表；原文列为第一条参考文献。",
+      "metric": "https://diabetesjournals.org/care/pages/about-the-journal",
+      "guide": "https://diabetesjournals.org/care/pages/instructions-for-authors",
+      "note": "Comment为正式在线发表稿型，有DOI和电子页码。勿与需原始数据的Observation Letters混同。",
+      "id": "diabetes-care",
+      "pubmed_query": "\"0149-5992\"[Journal]",
+      "issns": [
+        "0149-5992"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0149-5992",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://diabetesjournals.org/care/"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方期刊内容主页由搜索索引确认；最新列表直接读取受限，逐篇核对日期。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://diabetesjournals.org/care/pages/instructions-for-authors"
+      },
+      "route": "standard"
+    },
+    {
+      "row": null,
+      "name": "The Lancet Respiratory Medicine",
+      "pubmed": "Lancet Respir Med",
+      "domain": "呼吸与重症",
+      "jif": 34.7,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "预氧合、机械通气、ARDS、肺循环、呼吸支持及相关RCT和Meta分析",
+      "type": "Correspondence",
+      "rules": "正式评论渠道由出版社已发表来信及作者回复确认。现行作者指南读取受限，字数、参考文献及提交期限待核实。",
+      "metric": "https://info.thelancet.com/lanres/request-access",
+      "guide": "https://www.thelancet.com/pb/assets/raw/Lancet/authors/tlrm-info-for-authors.pdf",
+      "evidence": "https://www.sciencedirect.com/science/article/abs/pii/S2213260025000293",
+      "note": "新增，原145刊清单之外。官方指标页明确2025 JCR及Clarivate 2026；栏目证据包括预氧合网络Meta分析的评论与回复。",
+      "id": "lancet-respiratory-medicine",
+      "pubmed_query": "\"2213-2600\"[Journal]",
+      "issns": [
+        "2213-2600"
+      ],
+      "issn_source": "https://api.crossref.org/journals/2213-2600",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.thelancet.com/journals/lanres/onlinefirst"
+      ],
+      "publisher_latest_status": "blocked",
+      "publisher_latest_notes": "巴西里约热内卢州呼吸学与结核病学会官方期刊链接页明确链接本刊 Online First 地址；Lancet 官方订阅页确认该系列的提前在线发表栏目。当前页面返回 403，未读取最新列表。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.thelancet.com/pb/assets/raw/Lancet/authors/tlrm-info-for-authors.pdf"
+      },
+      "route": "standard",
+      "publisher_latest_evidence": [
+        "https://www.sopterj.com.br/links/links-pesquisa-em-pneumologia/",
+        "https://info.thelancet.com/update-alerts-new"
+      ],
+      "publisher_search_query": "site:thelancet.com/journals/lanres/ (onlinefirst OR fulltext) \"Published\""
+    },
+    {
+      "row": 57,
+      "name": "European Respiratory Journal",
+      "domain": "呼吸与肺循环",
+      "jif": 23.8,
+      "year": null,
+      "tier": "主体专题",
+      "topic": "肺动脉高压、妊娠合并呼吸疾病、呼吸支持、肺栓塞及睡眠呼吸障碍",
+      "type": "Correspondence",
+      "rules": "可讨论近期文章及热点议题。最多800词、10篇参考、1图或表，无摘要、不收补充材料；未查到固定天数。",
+      "metric": "https://www.ersnet.org/news-and-features/publication/new-ers-journal-impact-factors-released/",
+      "guide": "https://publications.ersnet.org/authors/erj/instructions",
+      "evidence": "https://publications.ersnet.org/authors/manuscript-preparation",
+      "note": "采用ERS于2026-06-18公布的最新JIF 23.8，公告未直接标明统计年度，年份留空。",
+      "id": "european-respiratory-journal",
+      "pubmed_query": "\"0903-1936\"[Journal]",
+      "issns": [
+        "0903-1936"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0903-1936",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://publications.ersnet.org/content/erj?destination=%2Ffront"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 ERJ 主页由搜索索引确认，含近期文章以及 Current Issue 和 Early View 导航；直接读取受限。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://publications.ersnet.org/authors/erj/instructions"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 29,
+      "name": "Circulation",
+      "domain": "心血管",
+      "jif": 41.3,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "妊娠相关心血管风险、围产期心肌病、肺循环、血压管理及血栓",
+      "type": "Letters to the Editor",
+      "rules": "仅限本刊原创研究，在线预发表后6周内。500词、5篇参考、3名作者，无图表或未发表数据；每人每年最多2封。",
+      "metric": "https://www.wolterskluwer.com/en/solutions/ovid/circulation-455",
+      "guide": "https://www.ahajournals.org/circ/article-types",
+      "note": "选择正式Letters。Article Comment eLetters不进入正式卷期且不被PubMed收录。",
+      "id": "circulation",
+      "pubmed_query": "\"0009-7322\"[Journal]",
+      "issns": [
+        "0009-7322"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0009-7322",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.ahajournals.org/loi/circ"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方期次列表由搜索索引确认，页面有 Current Issue。该入口可能遗漏尚未编入期次的在线发表文章；须同时使用 publisher_search_query 及 PubMed/Crossref 补查，并逐篇核对首次在线日期。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.ahajournals.org/circ/article-types"
+      },
+      "route": "standard",
+      "publisher_search_query": "site:ahajournals.org/doi/ \"Circulation\" \"Originally published\""
+    },
+    {
+      "row": null,
+      "name": "European Heart Journal",
+      "domain": "心血管",
+      "jif": 45.6,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "妊娠相关心血管疾病、围产期心肌病、肺动脉高压、肺栓塞及循环管理",
+      "type": "Discussion Forum",
+      "rules": "针对本刊过去6个月内在线发表的原创研究；500词、10篇参考、3名作者，最多1图或表或视频，不含新原创数据。AI使用须按指南披露。",
+      "metric": "https://academic.oup.com/eurheartj/pages/About",
+      "guide": "https://academic.oup.com/eurheartj/pages/General_Instructions",
+      "note": "新增，原145刊清单之外。现行参考文献上限为10篇，未沿用旧版5篇。只追踪与麻醉、围产期或重症有具体交集的研究。",
+      "id": "european-heart-journal",
+      "pubmed_query": "\"0195-668X\"[Journal]",
+      "issns": [
+        "0195-668X"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0195-668X",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://academic.oup.com/eurheartj"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方内容主页已读取，含 Latest articles 和 Advance Articles 导航。",
+      "ai_policy": {
+        "status": "disclose",
+        "note": "当前指南要求披露 AI 或 LLM 使用情况，作者须审核内容并承担责任。按目标稿型与当前指南填写披露，不将披露政策解释为可代替作者判断。",
+        "source": "https://academic.oup.com/eurheartj/pages/General_Instructions"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 65,
+      "name": "Journal of the American College of Cardiology",
+      "domain": "心血管",
+      "jif": 22.3,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "妊娠心血管风险、严重循环并发症、血压与心功能、血栓及抗凝策略",
+      "type": "Letters to the Editor",
+      "rules": "2026年已有正式To the Editor评论信及原研究回复。当前作者指南读取受限，字数及投稿窗口待核实。",
+      "metric": "https://www.acc.org/Latest-in-Cardiology/Articles/2026/06/17/17/26/just-announced",
+      "guide": "https://www.jacc.org/author-center/manuscript-guidelines",
+      "evidence": "https://www.jacc.org/doi/abs/10.1016/j.jacc.2025.11.056",
+      "note": "选择与围产期、麻醉或重症管理相交的临床研究，避免泛化到不熟悉的介入技术细节。",
+      "id": "jacc",
+      "pubmed_query": "\"0735-1097\"[Journal]",
+      "issns": [
+        "0735-1097"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0735-1097",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.jacc.org/toc/jacc/0/0"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Just Accepted 页面由搜索索引确认；直接读取受限。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.jacc.org/author-center/manuscript-guidelines"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 129,
+      "name": "Kidney International",
+      "domain": "肾脏与重症",
+      "jif": 21.8,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "围术期AKI、产科重症肾损伤、子痫前期肾脏结局、液体治疗及肾脏替代治疗",
+      "type": "Letter to the Editor",
+      "rules": "官方旧版指南确认可评论本刊近期研究数据；不针对Nephrology Digest。当前字数及投稿窗口未完成核实。",
+      "metric": "https://www.theisn.org/edigest-isn-journals-sept-2026/",
+      "guide": "https://www.kidney-international.org/content/authorinfo",
+      "evidence": "https://s3-us-west-2.amazonaws.com/clarivate-scholarone-prod-us-west-2-s1m-public/wwwRoot/prod1/societyimages/ki/KI_GFA_10-24-22.pdf",
+      "note": "栏目证据为2022年官方投稿系统指南，未将旧版字数作为现行要求。限与孕产妇或重症管理有交集的论文。",
+      "id": "kidney-international",
+      "pubmed_query": "\"0085-2538\"[Journal]",
+      "issns": [
+        "0085-2538"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0085-2538",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [],
+      "publisher_latest_status": "unverified_content",
+      "publisher_latest_notes": "已移除作者指南回退地址。本次未能从当前官方导航或搜索索引确认可用的最新文章列表地址。官网访问受限，使用 publisher_search_query 查找官方新论文并逐篇核对首次在线日期；不能据此报告本刊没有新文章。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.kidney-international.org/content/authorinfo"
+      },
+      "route": "standard",
+      "publisher_search_query": "site:kidney-international.org/article/ (\"Published online\" OR \"Articles in Press\")"
+    },
+    {
+      "row": 62,
+      "name": "JACC: Heart Failure",
+      "domain": "心衰与围产期",
+      "jif": 11.9,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "围产期心肌病、妊娠合并心衰、循环支持、容量管理及临床终点",
+      "type": "Letters to the Editor and Replies",
+      "rules": "官网可检索指南：原文在线发表后3个月内，400词含参考，5篇参考、5名作者、1图或表。",
+      "metric": "https://www.acc.org/Latest-in-Cardiology/Articles/2026/06/17/17/26/just-announced",
+      "guide": "https://www.jacc.org/pb-assets/documents/author-instructions-jacc-heart-failure-1709732646413.pdf",
+      "note": "规则来自官网2024版PDF，提交前需复核最新版本。只追踪有明确心衰交集的研究。",
+      "id": "jacc-heart-failure",
+      "pubmed_query": "\"2213-1779\"[Journal]",
+      "issns": [
+        "2213-1779"
+      ],
+      "issn_source": "https://api.crossref.org/journals/2213-1779",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.jacc.org/journal/heart-failure"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方期刊内容主页由搜索索引确认，含 Current Issue；未验证猜测的预发表列表地址。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.jacc.org/pb-assets/documents/author-instructions-jacc-heart-failure-1709732646413.pdf"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 138,
+      "name": "European Journal of Heart Failure",
+      "domain": "心衰与围产期",
+      "jif": 10.3,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "围产期心肌病、妊娠合并心衰、肺水肿、容量管理及循环支持",
+      "type": "Correspondence",
+      "rules": "可讨论本刊或ESC期刊家族近期论文。正文500词、最多5篇参考，无图表、摘要及补充材料；未列固定天数。",
+      "metric": "https://academic.oup.com/eurjhf/pages/About",
+      "guide": "https://academic.oup.com/eurjhf/pages/general-instructions",
+      "note": "采用期刊直接官网2025 JIF 10.3。ESC期刊家族汇总页为10.7，存在官方页面不一致，两值均超过门槛。",
+      "id": "european-journal-of-heart-failure",
+      "pubmed_query": "\"1388-9842\"[Journal]",
+      "issns": [
+        "1388-9842"
+      ],
+      "issn_source": "https://api.crossref.org/journals/1388-9842",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://academic.oup.com/eurjhf"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方内容主页已读取，含期刊内容与 Advance Articles 导航。",
+      "ai_policy": {
+        "status": "disclose",
+        "note": "当前指南要求披露 AI 或 LLM 使用情况，作者须审核内容并承担责任。按目标稿型与当前指南填写披露，不将披露政策解释为可代替作者判断。",
+        "source": "https://academic.oup.com/eurjhf/pages/general-instructions"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 19,
+      "name": "Allergy",
+      "domain": "过敏免疫",
+      "jif": 11.3,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "围术期过敏反应、药物过敏、过敏性休克、妊娠期过敏疾病及诊断标准",
+      "type": "Correspondences",
+      "rules": "针对已发表原创文章，正文少于600词、最多6篇参考、1图或表，必须引用原文。当前指南未列固定投稿窗口。",
+      "metric": "https://onlinelibrary.wiley.com/journal/13989995/journal-metrics",
+      "guide": "https://onlinelibrary.wiley.com/page/journal/13989995/homepage/ForAuthors.html",
+      "note": "目标稿型为Correspondences。Letters主要为原创观察短报。原作者4周回复要求不是来信作者的投稿期限。",
+      "id": "allergy",
+      "pubmed_query": "\"0105-4538\"[Journal]",
+      "issns": [
+        "0105-4538"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0105-4538",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://onlinelibrary.wiley.com/toc/13989995/0/0"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 Early View 页面已读取，条目有 Version of Record online 日期。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://onlinelibrary.wiley.com/page/journal/13989995/homepage/ForAuthors.html"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 113,
+      "name": "Metabolism: Clinical and Experimental",
+      "domain": "代谢与转化",
+      "jif": 16.7,
+      "year": 2025,
+      "tier": "主体专题",
+      "topic": "妊娠代谢、肥胖、胰岛素抵抗、代谢干预及具有母体结局意义的转化研究",
+      "type": "Letters",
+      "rules": "针对本刊最近3期论文的具体赞同或异议。最多500词含全部内容、15篇参考、1图或表；接受后在线正式发表。",
+      "metric": "https://www.metabolismjournal.com/",
+      "guide": "https://www.metabolismjournal.com/content/authorinfo",
+      "note": "适合已有代谢或机制研究积累的选题。单纯从孕妇亚组不足出发的评论通常缺少足够贡献。",
+      "id": "metabolism",
+      "pubmed_query": "\"0026-0495\"[Journal]",
+      "issns": [
+        "0026-0495"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0026-0495",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.metabolismjournal.com/inpress"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Articles in Press 内容由搜索索引确认；直接读取受限。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.metabolismjournal.com/content/authorinfo"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 13,
+      "name": "The BMJ",
+      "pubmed": "BMJ",
+      "domain": "综合医学",
+      "jif": 55.1,
+      "year": 2025,
+      "tier": "专项渠道",
+      "topic": "重大临床试验与Meta分析、母体安全、围术期用药、诊疗决策及医疗质量",
+      "type": "Letters，由Rapid Responses遴选",
+      "rules": "Rapid Response限600词、10篇参考；获选正式Letters限300词。AI仅可辅助拼写、语法和翻译并须披露，不纳入AI起草评论内容流程。",
+      "metric": "https://www.bmjchina.com.cn/journals/aboutjournals/overview/2016/0713/594.html",
+      "guide": "https://www.bmj.com/rapid-responses",
+      "note": "由原145刊扩入。Rapid Response本身不是期刊文章，也不被PubMed收录；仅编辑遴选后的正式Letters计为发表。须自行形成评论观点和正文。",
+      "id": "bmj",
+      "pubmed_query": "\"1756-1833\"[Journal]",
+      "issns": [
+        "1756-1833"
+      ],
+      "issn_source": "https://api.crossref.org/journals/1756-1833",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.bmj.com/content/by/section/Research"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "官方 Research 分区的文章列表已通过搜索索引核实，含 2026 年 9 月论文。直接访问受限时用官方索引逐篇核对。Rapid Responses 只用于评论渠道核查，不属于最新研究来源。",
+      "ai_policy": {
+        "status": "language_only",
+        "note": "Rapid Responses 及其遴选 Letters 仅允许 AI 改善拼写、语法和辅助翻译，须声明并说明使用情况。不得用 AI 生成评论观点或起草评论正文。",
+        "source": "https://www.bmj.com/about-bmj/resources-readers"
+      },
+      "route": "editor_selected",
+      "publisher_search_query": "site:bmj.com/content/ \"Research\" \"Published\""
+    },
+    {
+      "row": 97,
+      "name": "Nature Medicine",
+      "domain": "综合与转化医学",
+      "jif": 52.5,
+      "year": 2025,
+      "tier": "专项渠道",
+      "topic": "重大临床试验、母体健康、疾病风险预测、治疗安全及有明确临床后果的方法学问题",
+      "type": "Matters Arising",
+      "rules": "针对本刊原创研究的实质质疑或澄清；正文理想上≤1200词，通常≤15篇参考，1或2个小图表。未列固定投稿期限，可能经过同行评审。",
+      "metric": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics",
+      "guide": "https://www.nature.com/nm/submission-guidelines/matters-arising",
+      "note": "由原145刊扩入。证据要求较高，按机会追踪。官网强烈建议先联系原作者并附往来记录；逾两周未回复可说明。联系须由作者自行决定执行。",
+      "id": "nature-medicine",
+      "pubmed_query": "\"1078-8956\"[Journal]",
+      "issns": [
+        "1078-8956"
+      ],
+      "issn_source": "https://api.crossref.org/journals/1078-8956",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://www.nature.com/nm/research-articles?page=1&searchType=journalSearch&sort=PubDate",
+        "https://www.nature.com/nm/articles?type=review-article"
+      ],
+      "publisher_latest_status": "verified_indexed_content",
+      "publisher_latest_notes": "已用官方按发表日期排序的 Research articles 列表及 Review Articles 列表替换主页。两种列表均有官方搜索索引内容。需逐篇区分原创研究、综述及 Matters Arising，核对正式文章页的 Published 日期。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.nature.com/nm/submission-guidelines/matters-arising"
+      },
+      "route": "matters_arising",
+      "publisher_search_query": "site:nature.com/articles/ \"Nature Medicine\" \"Published\""
+    },
+    {
+      "row": 40,
+      "name": "Anaesthesia",
+      "domain": "麻醉",
+      "jif": 7.4,
+      "year": 2025,
+      "tier": "专业例外",
+      "topic": "产科麻醉、镇痛、恢复质量、气道管理及患者重要结局",
+      "type": "Correspondence",
+      "rules": "约600词，最多5篇参考、1图或表、3名作者；不设摘要与分节标题。",
+      "metric": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/journal/13652044/journal-metrics",
+      "guide": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/hub/journal/13652044/homepage/forauthors.html",
+      "note": "低于10分的专业例外：与产科麻醉、镇痛和患者安全直接相关。从正式作者指南进入投稿。旧网页文章评论服务已停用。",
+      "id": "anaesthesia",
+      "pubmed_query": "\"0003-2409\"[Journal]",
+      "issns": [
+        "0003-2409"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0003-2409",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [
+        "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/toc/13652044/0/0"
+      ],
+      "publisher_latest_status": "verified_content",
+      "publisher_latest_notes": "官方 Early View 页面已读取。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://associationofanaesthetists-publications.onlinelibrary.wiley.com/hub/journal/13652044/homepage/forauthors.html"
+      },
+      "route": "standard"
+    },
+    {
+      "row": 10,
+      "name": "American Journal of Obstetrics and Gynecology",
+      "domain": "妇产",
+      "jif": 7.9,
+      "year": 2025,
+      "tier": "专业例外",
+      "topic": "产后出血、分娩方式、妊娠高血压、母体安全及围产期结局",
+      "type": "Letters to the Editors",
+      "rules": "现行目录有正式评论信栏目。当前字数、作者数及时间窗口未完成核实。",
+      "metric": "https://www.wolterskluwer.com/en/solutions/ovid/american-journal-of-obstetrics-%2Dgynecology-369",
+      "guide": "https://www.ajog.org/content/authorinfo",
+      "evidence": "https://www.em-consulte.com/revue/YMOB/235/1/table-des-matieres/",
+      "note": "低于10分的专业例外：母体安全及产科决策与本专业直接相关。JIF来自Wolters Kluwer的Ovid期刊目录。未沿用旧版作者指南限制。",
+      "id": "ajog",
+      "pubmed_query": "\"0002-9378\"[Journal]",
+      "issns": [
+        "0002-9378"
+      ],
+      "issn_source": "https://api.crossref.org/journals/0002-9378",
+      "issn_notes": "已通过 Crossref journal 接口核实。仅保存用于本刊检索的已核实 ISSN，不复制接口合并返回的历史刊名或其他版本 ISSN。",
+      "publisher_latest_urls": [],
+      "publisher_latest_status": "unverified_content",
+      "publisher_latest_notes": "已移除作者指南回退地址。官方站点访问受限，本次未能确认最新文章列表的准确入口。使用 publisher_search_query 查找本刊官网新论文并逐篇核对首次在线日期；不能据此报告本刊没有新文章。",
+      "ai_policy": {
+        "status": "check_current",
+        "note": "本次未核实本刊评论稿型的最新 AI 政策。起草前检查当前指南；此状态不代表允许 AI 起草。",
+        "source": "https://www.ajog.org/content/authorinfo"
+      },
+      "route": "standard",
+      "publisher_search_query": "site:ajog.org/article/ (\"Published online\" OR \"Articles in Press\")"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "_comment": "全局风格令牌。所有生成图遵循此配色。可手动修改后重跑Step 3-5以应用新风格。",
+
+  "colors": {
+    "primary": "#6B2C8C",
+    "primary_light": "#A55EA0",
+    "primary_dark": "#4A1E63",
+    "accent": "#FFA94D",
+    "text": "#222222",
+    "background": "#FFFFFF",
+    "grid": "#E5E5E5"
+  },
+
+  "typography": {
+    "font_family": "Arial",
+    "title_size": 14,
+    "label_size": 11,
+    "caption_size": 9
+  },
+
+  "chart_defaults": {
+    "bg_color": "white",
+    "spine_visible": ["bottom", "left"],
+    "show_grid": false,
+    "dpi": 300
+  },
+
+  "api_settings": {
+    "model": "gpt-image-1",
+    "default_quality": "high",
+    "max_concurrent_requests": 3,
+    "max_total_generations": 50,
+    "retry_attempts": 3,
+    "retry_backoff_base": 2
+  }
+}

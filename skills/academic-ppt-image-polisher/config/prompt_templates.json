@@ -1,0 +1,41 @@
+{
+  "_comment": "5类占位符的prompt模板。{description}会被替换为占位符文本框里的原始描述。所有prompt强制no text/no numbers避免GPT image 2乱编文字。",
+
+  "mechanism_diagram": {
+    "prompt": "Flat medical schematic illustration of: {description}. Style requirements: scientific vector aesthetic, clean line work, labeled arrows showing causal/signaling flow between elements, isometric or 3/4 perspective for organs and cells, color palette dominated by deep purple #6B2C8C with secondary lavender #A55EA0 and one accent color, white background, no shadows, no 3D rendering effects, BioRender-inspired educational style. CRITICAL: do not render any text, letters, numbers, or labels in the image. All annotations will be added externally. Anatomical positions must be correct (heart on left, liver on right under diaphragm).",
+    "size_hint": "1536x1024",
+    "quality": "high"
+  },
+
+  "data_chart_mockup": {
+    "prompt": "Stylized scientific data visualization mockup illustrating: {description}. Style: flat publication-quality chart aesthetic, bars/lines/scatter points rendered in #6B2C8C primary and #A55EA0 secondary with one #FFA94D accent if needed, clean white background, minimal gridlines or no gridlines, axes shown as thin black lines. CRITICAL: do NOT render any numerical values, axis tick labels, data labels, legend text, or any letters/numbers in the image. The chart should be visually suggestive of the described data pattern but contain zero text. All numerical content will be overlaid externally.",
+    "size_hint": "1536x1024",
+    "quality": "high"
+  },
+
+  "anatomical_organ": {
+    "prompt": "Stylized anatomical illustration of: {description}. Style: flat medical art, isometric or 3/4 view, cross-section if relevant showing internal architecture, color palette #6B2C8C primary with anatomically appropriate secondary tones (red for blood vessels, pink for muscle tissue), white background, educational textbook quality, clean vector line work. CRITICAL: no text labels, no annotations, no leader lines pointing to structures. Anatomical accuracy is essential.",
+    "size_hint": "1024x1024",
+    "quality": "high"
+  },
+
+  "experiment_concept": {
+    "prompt": "Conceptual illustration of laboratory workflow for: {description}. Style: flat icon-based aesthetic, simplified equipment representation (no photorealistic detail), color palette #6B2C8C and #A55EA0 on white background, suitable as section header decoration. Show sample flow with thin arrows between simplified equipment icons (centrifuge, plate, microscope as abstract shapes). CRITICAL: no text labels on equipment, no specific data values shown, no legible writing anywhere in the image.",
+    "size_hint": "1024x1024",
+    "quality": "medium"
+  },
+
+  "infographic": {
+    "prompt": "Flat modern infographic illustration of: {description}. Style: clean editorial design, isometric elements where appropriate, color palette #6B2C8C primary, #A55EA0 secondary, #FFA94D accent on white background, suitable for academic presentation. Visual elements may include simplified maps, flow diagrams, timeline elements. CRITICAL: minimize all text in the image, no specific numerical values, no detailed labels, no place names or proper nouns rendered as text.",
+    "size_hint": "1536x1024",
+    "quality": "high"
+  },
+
+  "_classification_keywords": {
+    "mechanism_diagram": ["通路", "机制", "模型", "信号", "级联", "轴", "技术路线", "研究思路", "假说", "pathway", "signaling", "cascade", "roadmap"],
+    "data_chart_mockup": ["柱状图", "曲线", "时程", "ROC", "森林图", "热图", "Kaplan", "生存曲线", "发生率", "分布率", "barchart", "curve", "boxplot"],
+    "anatomical_organ": ["肝脏", "心脏", "肾脏", "器官", "组织", "解剖", "anatomy", "organ"],
+    "experiment_concept": ["H&E", "IF", "WB", "免疫荧光", "超声", "流式", "scRNA-seq", "UMAP", "拟时序", "染色", "FACS", "staining"],
+    "infographic": ["地图", "分布", "流程图", "时间线", "示意图", "map", "distribution", "timeline", "flowchart"]
+  }
+}

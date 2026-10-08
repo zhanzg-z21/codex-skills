@@ -1,0 +1,7 @@
+interface:
+  display_name: "医学期刊编辑风科研组会 Medical Editorial Scientific PPT"
+  short_description: "Create a presentation from this saved template"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $artifact-template-medical-editorial-scientific-ppt to create a presentation with this template."
+policy:
+  allow_implicit_invocation: true
